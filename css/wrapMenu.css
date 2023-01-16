@@ -1,0 +1,37 @@
+.wrap_menu {
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.wrap_menu .inner {
+	width: 100%;
+
+	
+	position: relative; /*자식 absolute 요소의 기준점 설정*/
+}
+
+.wrap_menu .inner h1 a {
+	font: bold 24px/1 "arial";
+	color: #444;
+}
+
+.wrap_menu .inner .gnb {
+	
+    display: flex;
+    justify-content: center;
+    justify-items:end;
+}
+
+
+
+.wrap_menu .inner .gnb li a {
+	display: inline-block;/*인라인 요소는 block설정하여 크기를 조절가능*/
+	font: bold 15px/1 "arial";
+	color: #555;
+	padding: 20px 40px;
+	transition: all 0.5s;
+	white-space:nowrap;
+}
+.wrap_menu .inner .gnb li a:hover {
+	background: #555;
+	color: #fff;
+}

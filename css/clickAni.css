@@ -1,0 +1,12 @@
+/* 애니메이션 */
+
+.wrap #circle article .inner>div:hover { 
+    background: rgba(255,255,255,0.15); 
+    transform: scale(1.03); 
+    opacity: 1;
+}
+
+.wrap #circle article .inner>div:hover h2  {
+    color: lightcyan; 
+    text-shadow: 0px 0px 10px aqua;    
+}

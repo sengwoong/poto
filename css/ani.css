@@ -1,0 +1,30 @@
+
+
+/* 3D 배치 */
+.face1 {
+    transform: rotateY(calc(36078)deg) translateZ(calc(2100/3.14)px);
+}
+.face2 {
+    transform: rotateY(calc(360/7)deg) translateZ(calc(2100/3.14)px);
+}
+.face3 {
+    transform: rotateY(calc(360/7)deg) translateZ(calc(2100/3.14)px);
+}
+.face4 {
+    transform: rotateY(calc(360/7)deg) translateZ(calc(2100/3.14)px);
+}
+.face5 {
+    transform: rotateY(calc(360/7)deg) translateZ(calc(2100/3.14)px);
+}
+.face6 {
+    transform: rotateY(calc(360/7)deg) translateZ(calc(2100/3.14)px);
+}
+.face7 {
+    transform: rotateY(calc(360/7)deg) translateZ(calc(2100/3.14)px);
+}
+
+
+@keyframes ani {
+    0% {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
+}
